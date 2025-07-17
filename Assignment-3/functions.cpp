@@ -14,7 +14,6 @@ void inputIntegers(Queue<int>& q) {
 // Function to take input, display the queue, and show front element and size
 void take_input_display(Queue<int>& q) {
 	inputIntegers(q);
-	cout << "Queue after inputting integers:\n";
 	q.display();
 	cout << "Front element: " << q.front() << endl;
 	cout << "Queue size: " << q.size() << endl;
@@ -31,7 +30,6 @@ void move_to_rear(Queue<int>& q) {
 	q.pop(); // Remove the front element
 	q.push(front_value); // Add it to the back
 	cout << "Moved front element " << front_value << " to the rear of the queue.\n";
-	cout << "Queue after moving front to rear:\n";
 	q.display(); // Display the queue after moving
 	q.clear(); // Clear the queue after displaying
 }
@@ -132,7 +130,6 @@ void insertion_sort(Queue <int>& q) {
 	for (int k = 0; k < num.size(); k++) {
 		q.push(num[k]); // Push sorted elements back to the queue
 	}
-	cout << "Queue sorted using insertion sort:\n";
 	q.display(); // Display the sorted queue
 	q.clear(); // Clear the queue after displaying
 }
