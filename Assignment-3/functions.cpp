@@ -130,6 +130,7 @@ void insertion_sort(Queue <int>& q) {
 	for (int k = 0; k < num.size(); k++) {
 		q.push(num[k]); // Push sorted elements back to the queue
 	}
+	cout << "Sorted ";
 	q.display(); // Display the sorted queue
 	q.clear(); // Clear the queue after displaying
 }
