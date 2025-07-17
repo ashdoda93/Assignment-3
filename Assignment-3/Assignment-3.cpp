@@ -8,7 +8,7 @@ int main() {
 	do {
 		cout << "Menu:\n";
 		cout << "1. Queue data structure demo.\n";
-		cout << "2. Demo linear search for last occurrence in a vector\n";
+		cout << "2. Linear search for last occurrence in a vector demo\n";
 		cout << "3. Insertion sort demo.\n";
 		cout << "4. Exit\n";
 		cout << "Enter your choice: ";
